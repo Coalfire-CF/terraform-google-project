@@ -11,10 +11,8 @@ resource "random_id" "suffix_management" {
 resource "google_project" "management" {
   name            = "${var.project_prefix}-management"
   project_id      = "${var.project_prefix}-management-${random_id.suffix_management.hex}"
-  folder_id       = google_folder.management.folder_id
+  folder_id       = var.management_folder_id
   billing_account = var.billing_account
-
-  depends_on = [module.organization_policies_type_boolean]
 }
 
 resource "google_project_service" "management" {
@@ -40,10 +38,8 @@ resource "random_id" "suffix_networking" {
 resource "google_project" "networking" {
   name            = "${var.project_prefix}-networking"
   project_id      = "${var.project_prefix}-networking-${random_id.suffix_networking.hex}"
-  folder_id       = google_folder.networking.folder_id
+  folder_id       = var.networking_folder_id
   billing_account = var.billing_account
-
-  depends_on = [module.organization_policies_type_boolean]
 }
 
 resource "google_project_service" "networking" {
