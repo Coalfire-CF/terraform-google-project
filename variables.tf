@@ -1,9 +1,3 @@
-variable "project_prefix" {
-  description = "Prefix for projects."
-  type        = string
-  default     = "prj"
-}
-
 variable "name" {
   description = "Name of project"
   type        = string
