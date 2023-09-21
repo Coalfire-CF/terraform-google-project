@@ -4,13 +4,18 @@ variable "project_prefix" {
   default     = "prj"
 }
 
-variable "management_folder_id" {
-  description = "Folder id for management"
+variable "name" {
+  description = "Name of project"
   type        = string
 }
 
-variable "networking_folder_id" {
-  description = "Folder id for networking"
+variable "project_id" {
+  description = "Project ID"
+  type        = string
+}
+
+variable "folder_id" {
+  description = "Folder ID"
   type        = string
 }
 
@@ -19,12 +24,12 @@ variable "billing_account" {
   type        = string
 }
 
-variable "management_services" {
-  description = "APIs & Services to enable for management project."
+variable "services" {
+  description = "APIs & Services to enable for the project."
   type        = list(string)
 }
 
-variable "networking_services" {
-  description = "APIs & Services to enable for networking project."
-  type        = list(string)
+variable "auto_create_network" {
+  description = "Controls whether the 'default' network exists on the project."
+  type        = bool
 }
