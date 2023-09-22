@@ -8,15 +8,13 @@ FedRAMP Compliance: High
 ### Usage
 ```
 module "project" {
-    source = "github.com/Coalfire-CF/ACE-GCP-Project"
+  source = "github.com/Coalfire-CF/terraform-gcp-project"
 
-    management_folder_id = var.mgmt_folder_id
-    networking_folder_id = var.network_folder_id
-
-    billing_account = var.billing_account
-
-    management_services = var.management_services
-    networking_services = var.networking_services
+  name            = "project-name"
+  project_id      = "project-id"
+  folder_id       = "your-folder-id"
+  billing_account = "your-billing-account"
+  services        = ["compute.googleapis.com"]
 }
 ```
 <!-- BEGIN_TF_DOCS -->
