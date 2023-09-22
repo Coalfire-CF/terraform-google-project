@@ -8,15 +8,13 @@ FedRAMP Compliance: High
 ### Usage
 ```
 module "project" {
-    source = "github.com/Coalfire-CF/ACE-GCP-Project"
+  source = "github.com/Coalfire-CF/terraform-gcp-project"
 
-    management_folder_id = var.mgmt_folder_id
-    networking_folder_id = var.network_folder_id
-
-    billing_account = var.billing_account
-
-    management_services = var.management_services
-    networking_services = var.networking_services
+  name            = "project-name"
+  project_id      = "project-id"
+  folder_id       = "your-folder-id"
+  billing_account = "your-billing-account"
+  services        = ["compute.googleapis.com"]
 }
 ```
 <!-- BEGIN_TF_DOCS -->
@@ -52,7 +50,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_auto_create_network"></a> [auto\_create\_network](#input\_auto\_create\_network) | Controls whether the 'default' network exists on the project. | `bool` | n/a | yes |
+| <a name="input_auto_create_network"></a> [auto\_create\_network](#input\_auto\_create\_network) | Controls whether the 'default' network exists on the project. | `bool` | `false` | no |
 | <a name="input_billing_account"></a> [billing\_account](#input\_billing\_account) | The ID of the billing account to associate projects with. | `string` | n/a | yes |
 | <a name="input_folder_id"></a> [folder\_id](#input\_folder\_id) | Folder ID | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | Name of project | `string` | n/a | yes |
