@@ -26,4 +26,5 @@ variable "services" {
 variable "auto_create_network" {
   description = "Controls whether the 'default' network exists on the project."
   type        = bool
+  default     = false
 }
