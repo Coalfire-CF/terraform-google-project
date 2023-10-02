@@ -16,7 +16,7 @@ resource "google_project" "project" {
   auto_create_network = var.auto_create_network
 }
 
-resource "google_project_service" "management" {
+resource "google_project_service" "service" {
   for_each = toset(var.services)
 
   project = google_project.project.id
