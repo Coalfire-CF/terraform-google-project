@@ -28,3 +28,8 @@ variable "auto_create_network" {
   type        = bool
   default     = false
 }
+
+variable "random_suffix" {
+  type    = bool
+  default = true
+}
