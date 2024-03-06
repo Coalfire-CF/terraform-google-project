@@ -10,7 +10,7 @@ resource "random_id" "suffix" {
 
 resource "google_project" "project" {
   name                = var.name
-  project_id          = "${var.project_id}-${random_id.suffix.hex}"
+  project_id          = var.random_suffix ? "${var.project_id}-${random_id.suffix.hex}" : var.project_id
   folder_id           = var.folder_id
   billing_account     = var.billing_account
   auto_create_network = var.auto_create_network
