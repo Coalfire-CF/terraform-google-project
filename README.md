@@ -54,9 +54,13 @@ No modules.
 | <a name="input_folder_id"></a> [folder\_id](#input\_folder\_id) | Folder ID | `string` | n/a | yes |
 | <a name="input_name"></a> [name](#input\_name) | Name of project | `string` | n/a | yes |
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Project ID | `string` | n/a | yes |
+| <a name="input_random_suffix"></a> [random\_suffix](#input\_random\_suffix) | n/a | `bool` | `true` | no |
 | <a name="input_services"></a> [services](#input\_services) | APIs & Services to enable for the project. | `list(string)` | n/a | yes |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_project_id"></a> [project\_id](#output\_project\_id) | The project ID. |
+| <a name="output_project_number"></a> [project\_number](#output\_project\_number) | The numeric identifier of the project. |
 <!-- END_TF_DOCS -->
