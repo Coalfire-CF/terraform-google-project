@@ -3,11 +3,13 @@
 # Google Cloud Project Terraform Module
 
 ## Description
+
 This Google Cloud Project module creates the projects and enables services. Coalfire has tested this module with Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0.
 
 FedRAMP Compliance: High 
 
 ### Usage
+
 ```
 module "project" {
   source = "github.com/Coalfire-CF/terraform-gcp-project"
@@ -64,3 +66,18 @@ No modules.
 | <a name="output_project_id"></a> [project\_id](#output\_project\_id) | The project ID. |
 | <a name="output_project_number"></a> [project\_number](#output\_project\_number) | The numeric identifier of the project. |
 <!-- END_TF_DOCS -->
+
+## Tree
+
+```text
+.
+|-- CHANGELOG.md
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- README.md
+|-- coalfire_logo.png
+|-- main.tf
+|-- outputs.tf
+|-- release-please-config.json
+|-- variables.tf
+```
