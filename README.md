@@ -64,3 +64,18 @@ No modules.
 | <a name="output_project_id"></a> [project\_id](#output\_project\_id) | The project ID. |
 | <a name="output_project_number"></a> [project\_number](#output\_project\_number) | The numeric identifier of the project. |
 <!-- END_TF_DOCS -->
+
+## Tree
+
+```text
+.
+|-- CHANGELOG.md
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- README.md
+|-- coalfire_logo.png
+|-- main.tf
+|-- outputs.tf
+|-- release-please-config.json
+|-- variables.tf
+```
