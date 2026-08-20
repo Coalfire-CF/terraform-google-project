@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.1](https://github.com/Coalfire-CF/terraform-google-project/compare/v1.1.0...v1.1.1) (2026-08-20)
+
+
+### Bug Fixes
+
+* **release:** pass secrets to org-release (App token for release-please) ([#38](https://github.com/Coalfire-CF/terraform-google-project/issues/38)) ([dc91d97](https://github.com/Coalfire-CF/terraform-google-project/commit/dc91d97e50ae2944016554f137bcd205384fe55b))
+
+
+### Miscellaneous
+
+* adopt Actions v0.12.1 (bypass auto-merge + event-driven re-merge) ([bec904f](https://github.com/Coalfire-CF/terraform-google-project/commit/bec904fd622e4b29b84758d5b50ade42b8d0d9df))
+* **ci:** adopt Coalfire-CF/Actions v0.11.3 ([#36](https://github.com/Coalfire-CF/terraform-google-project/issues/36)) ([8431e14](https://github.com/Coalfire-CF/terraform-google-project/commit/8431e14ac81e7e4f6aa52231132c5a082b8292d1))
+* **deps:** bump the org-actions group across 1 directory with 8 updates ([#48](https://github.com/Coalfire-CF/terraform-google-project/issues/48)) ([5ee666e](https://github.com/Coalfire-CF/terraform-google-project/commit/5ee666e36a98207fd18cd9aec24267e2cc636886))
+* **deps:** bump the org-actions group with 10 updates ([#39](https://github.com/Coalfire-CF/terraform-google-project/issues/39)) ([54f7fda](https://github.com/Coalfire-CF/terraform-google-project/commit/54f7fda6f7240208ac025c24aa6fbfb82b8de3e1))
+* **deps:** bump the org-actions group with 10 updates ([#40](https://github.com/Coalfire-CF/terraform-google-project/issues/40)) ([f927f83](https://github.com/Coalfire-CF/terraform-google-project/commit/f927f83921b6a424803c7936abd55905b5ad832c))
+* **deps:** bump the org-actions group with 10 updates ([#41](https://github.com/Coalfire-CF/terraform-google-project/issues/41)) ([0089d33](https://github.com/Coalfire-CF/terraform-google-project/commit/0089d33cb2428f0128afb1f4182f8103b4d0bbe5))
+* **deps:** bump the org-actions group with 9 updates ([#44](https://github.com/Coalfire-CF/terraform-google-project/issues/44)) ([4a8ca21](https://github.com/Coalfire-CF/terraform-google-project/commit/4a8ca2120d2b282a7ad03a330048b7e90b8acb20))
+* **docs:** generate README from _header.md and _footer.md ([#47](https://github.com/Coalfire-CF/terraform-google-project/issues/47)) ([ced7c7e](https://github.com/Coalfire-CF/terraform-google-project/commit/ced7c7e19db35069309bbb0458415a149c483c64))
+* refresh PR template ([#46](https://github.com/Coalfire-CF/terraform-google-project/issues/46)) ([39c1717](https://github.com/Coalfire-CF/terraform-google-project/commit/39c1717dba10c4b48bea2c060951001474505dc4))
+* retire org-tree-readme ([#42](https://github.com/Coalfire-CF/terraform-google-project/issues/42)) ([2244a2b](https://github.com/Coalfire-CF/terraform-google-project/commit/2244a2bffd2c7f218338de7e4c48b39b5655e4c4))
+
 ## [1.1.0](https://github.com/Coalfire-CF/terraform-google-project/compare/v1.0.4...v1.1.0) (2026-07-05)
 
 
