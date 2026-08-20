@@ -15,6 +15,6 @@ on:
 
 jobs:
   terraform-validate:
-    uses: Coalfire-CF/Actions/.github/workflows/org-terraform-validate.yml@9e201c39c762245a1ccb2a487ed6a5c42c500fe7 # v0.16.1
+    uses: Coalfire-CF/Actions/.github/workflows/org-terraform-validate.yml@162d71ff9bace6c2994b3b8d9e5bfc33f6b54eed # v0.18.0
     with:
       terraform_version: "1.15.7"
