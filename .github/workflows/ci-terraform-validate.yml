@@ -1,4 +1,4 @@
-name: Org Terraform Validate
+name: "CI: Terraform validate"
 
 permissions:
   contents: write
@@ -15,6 +15,6 @@ on:
 
 jobs:
   terraform-validate:
-    uses: Coalfire-CF/Actions/.github/workflows/org-terraform-validate.yml@9e201c39c762245a1ccb2a487ed6a5c42c500fe7 # v0.16.1
+    uses: Coalfire-CF/Actions/.github/workflows/ci-terraform-validate.yml@88e02c851b87f8042147e1ba9f340b49ab1b628b # v1.0.0
     with:
       terraform_version: "1.15.7"
