@@ -6,7 +6,8 @@
 
 ## Description
 
-This Google Cloud Project module creates the projects and enables services. Coalfire has tested this module with Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0.
+This Google Cloud Project module creates the projects and enables services. Coalfire has tested this module with
+Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0.
 
 FedRAMP Compliance: High
 
